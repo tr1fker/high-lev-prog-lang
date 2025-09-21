@@ -1,0 +1,45 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f0f2f5;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 { color: #333; }
+
+.script-btn {
+    width: 300px;
+    text-align: left;
+    margin: 8px 0;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.script-btn:hover { background-color: #e6f0ff; transform: translateY(-2px); }
+.script-btn.active { background-color: #4a90e2; color: white; }
+
+.output {
+    width: 300px;
+    margin-bottom: 10px;
+    padding: 15px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    display: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, padding 0.4s ease;
+}
+
+.output.open { display: block; max-height: 500px; }
+
+pre { margin: 0; white-space: pre-wrap; word-wrap: break-word; }
