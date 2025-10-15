@@ -1,0 +1,82 @@
+/* ====== Светлая тема (по умолчанию) ====== */
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5; /* светлый фон */
+    color: #000;         /* чёрный текст */
+    padding: 20px;
+}
+
+.card {
+    background: #fff;        /* белый фон карточки */
+    border: 1px solid #ccc;  /* светлая рамка */
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;      /* скруглённые углы */
+}
+
+.title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.risk {
+    color: #555;
+    font-style: italic;
+}
+
+form {
+    margin: 20px 0;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin: 8px 0 4px;
+}
+
+input, select, button {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.msg {
+    padding: 10px;
+    background: #e0ffe0;     /* зелёный фон для уведомлений */
+    border: 1px solid #8bc34a;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.danger {
+    background: #ffdddd;     /* красный фон для опасных действий */
+    border: 1px solid #e53935;
+}
+
+/* ====== Тёмная тема ====== */
+.dark-mode body {
+    background: #1e1e1e; /* тёмный фон */
+    color: #f0f0f0;      /* светлый текст */
+}
+
+.dark-mode .card {
+    background: #2c2c2c;
+    border: 1px solid #444;
+}
+
+.dark-mode form {
+    background: #2c2c2c;
+    border: 1px solid #444;
+}
+
+.dark-mode .msg {
+    background: #334d33;
+    border: 1px solid #4caf50;
+}
+
+.dark-mode .danger {
+    background: #662222;
+    border: 1px solid #e53935;
+}
